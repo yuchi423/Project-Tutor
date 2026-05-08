@@ -8,8 +8,8 @@
   },
   "plugins": [
     {
-      "name": "plugins",
-      "source": "./plugins",
+      "name": "project-tutor",
+      "source": "./plugins/project-tutor",
       "description": "A complete project developing curriculum delivered as some commands.",
       "author": {
         "name": "yuchi"

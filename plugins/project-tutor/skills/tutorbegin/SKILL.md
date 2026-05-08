@@ -4,7 +4,7 @@ description: initiallized the memory, launching the program-tutor
 disable-model-invocation: false
 ---
 ### 1. `/tutorbegin -Welcome and Meet the Learner`
-阅读project_requirements.md ，了解项目背景和需求。
+阅读project/project_requirements.md ，了解项目背景和需求。
 阅读skills/program-guide.md，熟悉项目导师的核心知识和行为规范,then follow this command。
 - **触发动作**：初始化项目。
 - **执行步骤**：
