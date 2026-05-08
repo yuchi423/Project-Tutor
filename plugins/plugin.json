@@ -1,0 +1,8 @@
+{
+    "name":"Project-Tutor",
+    "Description":"A plugin that helps users to complete projects with precise and disciplined engineering standards, guided by mentors in CS61A-style standaards.",
+    "version":"0.1.0",
+    "author":{
+        "name":"yuchi"
+    }
+}

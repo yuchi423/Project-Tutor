@@ -1,0 +1,21 @@
+{
+  "name": "Project-Tutor",
+  "owner": {
+    "name": "yuchi"
+  },
+  "metadata": {
+    "description": "A comprehensive project tutor for guiding students through software development tasks.Inspired by devpost's hackathon curriculum and CS61A's project-based learning approach."
+  },
+  "plugins": [
+    {
+      "name": "plugins",
+      "source": "./plugins",
+      "description": "A complete project developing curriculum delivered as some commands.",
+      "author": {
+        "name": "yuchi"
+      },
+      "keywords": ["project", "curriculum", "agentic-workflow", "ai-tutor"],
+      "category": "education"
+    }
+  ]
+}
