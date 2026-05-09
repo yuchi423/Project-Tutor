@@ -12,4 +12,7 @@ It gives you detailed and enlightened instructions to help you complete a projec
 
 Then,run /reload-plugins and restart Claude Code.
 
-Remember to include project_requirements in your folder.
+Remember to create the `project` folder and include project_requirements in it.
+
+**Hope you make your idea come ture**
+
