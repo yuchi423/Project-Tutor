@@ -9,9 +9,10 @@ disable-model-invocation: false
 - **触发动作**：初始化项目。
 - **执行步骤**：
   1. 分析项目说明，将项目拆解为多个 Milestone，每个 Milestone 包含具体的 Tasks。
-  2. 自动在当前工作目录下创建或覆写 `tutor_memory.md` 文件与` process-notes.md` 。
-  3. 将完整的任务蓝图（状态设为 `[ ] 未完成`）和关键设定写入 `tutor_memory.md`。
-  4. 在对话中输出任务蓝图，并直接进入 Milestone 1 的 Task 1 的 **Phase 2 (Unlock)** 阶段。
+  2. 创建docs文件夹，之后的md文档都保存在这里，例如 `tutor_memory.md`、`process-notes.md` 等。
+  3. 自动在当前工作目录下创建或覆写 `tutor_memory.md` 文件与` process-notes.md` 。
+  4. 将完整的任务蓝图（状态设为 `[ ] 未完成`）和关键设定写入 `tutor_memory.md`。
+  5. 在对话中输出任务蓝图，并直接进入 Milestone 1 的 Task 1 的 **Phase 2 (Unlock)** 阶段。
 ## Process Notes
 Maintain process-notes.md in the project root. Append at every phase:
 
