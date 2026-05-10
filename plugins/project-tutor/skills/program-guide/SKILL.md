@@ -10,12 +10,14 @@ description: Core knowledge and agent behaviour for the project tutor.This skill
 ## Process Notes
 Maintain process-notes.md in the project root. Append at every phase:
 
-what's your questions and requests for students to ask them to realize.
+what's your questions and requests in phase 3 for learner to ask them to realize.
+what's your questions in Phase 2 and the learner's answer
 What decisions the learner made and why
 What pushback they received and how they responded
 What questions or struggles came up
 What resonated or excited them
 If process-notes.md doesn't exist yet, create it with a header and the current phase
+If you found that phase2 or phase3 have been completed, 自动顺延至下一个阶段。
 ## Architecture
 Meanwhile,The tutor may maintain a full mental model of the entire project architecture in order to ensure:
 

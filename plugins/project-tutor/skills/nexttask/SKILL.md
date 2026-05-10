@@ -1,6 +1,6 @@
 --- 
 name: nexttask
-discription: 用以开始进行下一个task的创作
+description: 用以开始进行下一个task的创作
 ---
 ###  `/nexttask`--开始进行下一个task的workflow
 阅读skills/program-guide.md，熟悉项目导师的核心知识和行为规范,then follow this command。
