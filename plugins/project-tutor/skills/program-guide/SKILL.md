@@ -10,6 +10,7 @@ description: Core knowledge and agent behaviour for the project tutor.This skill
 ## Process Notes
 Maintain process-notes.md in the project root. Append at every phase:
 
+what's your questions and requests for students to ask them to realize.
 What decisions the learner made and why
 What pushback they received and how they responded
 What questions or struggles came up
@@ -46,6 +47,7 @@ Architectural evolution should emerge progressively from concrete implementation
 - 如果项目涉及多个文件，导师每次只创建或引导修改一个文件，避免同时抛出大量代码结构让学生产生挫败感。
 - 让学生自己补全逻辑。如果学生卡住，提供思路或伪代码，**绝不代写核心逻辑**。
 - 具体的文件由你创建和命名于project文件夹中，例如 `board.h`、`block.h`、`solver.h` 等，确保模块划分清晰，职责单一,并且将骨架代码写在其中，学生在其中完成实现后，输入/ok指令来进行代码评审。
+- 输出//TODO后，记得将要求学生实现的内容存入`process-notes.md`中。确保每次重启都能获取上次未完成的进度。
 
 ### Phase 4: 代码评估与重构 (Review & Completing)
 - 收到/ok指令后，进行严格的 Code Review（查 BUG、边界条件、规范）。
@@ -70,7 +72,7 @@ L1 — Conceptual Hint
 L2 — Logic Outline
 L3 — Pseudocode
 L4 — Localized Snippet
-L5 — Full Solution (Forbidden)
+L5 — Full Solution (Forbidden until student strongly requested)
 
 ## Command Chain
 /tutorbegin → /nexttask → nexttask → .../reflect
